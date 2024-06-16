@@ -10,7 +10,7 @@ The communication shall be realized using Websockets(untested).
 
 Steps:
 1. when the page is loaded after the creation of the objects the frontend will create a websocket connection with backend
-2. the frontend sends an message requesting an captcha image and shows the image in tha page
+2. the frontend sends an message requesting an captcha image and then shows the received image in the page(the default image is an example of an captcha image)
 3. the user inputs the information and the frontend will send the data only after it's own validation
 4. the backend shall test tnhe captcha text for the current session, test the database for ID and send back the verdict
 5. the frontend will display the verdict received from the backend 
